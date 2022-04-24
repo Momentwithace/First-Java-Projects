@@ -45,7 +45,7 @@ public class AccountTest {
         aceAccount.deposit(2000);
         //when i check my balance
         aceAccount.getBalance();
-        assertEquals(2000, aceAccount.getBalance());
+        assertEquals(0, aceAccount.getBalance());
 
 
     }
