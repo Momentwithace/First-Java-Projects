@@ -1,4 +1,4 @@
-package bikeProject;
+package tdd;
 
 public class Bike {
     private boolean status;

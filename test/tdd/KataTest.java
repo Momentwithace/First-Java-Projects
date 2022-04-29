@@ -1,6 +1,7 @@
-package chapter2;
+package tdd;
 
 import org.junit.jupiter.api.Test;
+import tdd.Kata;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
@@ -49,6 +50,24 @@ public class KataTest {
         Kata calculator = new Kata();
         int results = calculator.qoutientTest2(10 , 0);
         assertEquals(0, results);
+
+
+    }
+
+    @Test
+    public void result(){
+        Kata result = new Kata();
+        String gradeA = result.grade(92);
+        String gradeB = result.grade(85);
+        String gradeC = result.grade(73);
+        String gradeD = result.grade(65);
+        String gradeF = result.grade(26);
+        assertEquals("A" , gradeA);
+        assertEquals("B" , gradeB);
+        assertEquals("C" , gradeC);
+        assertEquals("D" , gradeD);
+        assertEquals("F" , gradeF);
+
 
 
     }

@@ -1,4 +1,4 @@
-package chapter2;
+package tdd;
 
 import javax.swing.text.DefaultStyledDocument;
 
@@ -37,12 +37,36 @@ public class Kata {
             return firstNumber / secondNumber;
         }
     }
+
+    public String grade(int result){
+        if (result >= 90 && result <= 100) {
+            System.out.println("Your Grade Is: A ");
+            return "A";
+        }
+//
+        if (result >= 80 && result < 90) {
+            System.out.println("Your Grade Is: B");
+            return "B";
+        }
+//
+        if (result >= 70 && result < 80) {
+            System.out.println("Your Grade Is: C");
+            return "C";
+        }
+
+        if (result >= 60 && result < 70) {
+            System.out.println("Your Grade Is: D");
+            return "D";
+        }
+
+        System.out.println("Your Grade Is: F");
+        return "F";
+    }
+
 }
-        //int qoutient = 0;
-       //if(firstNumber < secondNumber) qoutient = firstNumber/secondNumber;
-      //  if(firstNumber > secondNumber) qoutient = firstNumber/secondNumber;
-         //   return secondNumber;
-       //}
+
+
+
 
 
 

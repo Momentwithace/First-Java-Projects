@@ -1,4 +1,4 @@
-package airCondition;
+package tdd;
 
 public class AirCondition {
     private boolean status;
