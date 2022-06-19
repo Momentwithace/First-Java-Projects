@@ -28,7 +28,7 @@ class GradeCheckerTest {
             System.out.println(aceSchool.studentName[i]+" ");
         }
         System.out.println();
-        assertNotNull(aceSchool.studentName[0]);b
+        assertNotNull(aceSchool.studentName[0]);
         assertNotNull(aceSchool.studentName[1]);
     }
     @Test

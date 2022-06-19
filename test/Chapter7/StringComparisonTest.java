@@ -24,4 +24,12 @@ class StringComparisonTest {
         String[] Ace2 = new String[3];
         assertTrue(array.comparisonResult(Ace, Ace2));
     }
+    @Test
+    void testThatTwoDifferentArrayContainTheSameStringElement(){
+        String[] Ace = new String[5];
+        String[] Ace2 = new String[2];
+        assertFalse(array.StringArrayElementComparison(Ace, Ace2));
+
+    }
+
 }

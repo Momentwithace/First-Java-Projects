@@ -3,6 +3,8 @@ package tdd;
 import javax.swing.text.DefaultStyledDocument;
 
 public class Kata {
+
+
     public int add(int firstNumber, int secondNumber) {
         return firstNumber + secondNumber;
     }
@@ -29,16 +31,15 @@ public class Kata {
 
     public int qoutientTest2(int firstNumber, int secondNumber) {
         int division = 0;
-        if(secondNumber == 0){
+        if (secondNumber == 0) {
             return division;
-        }
-        else {
+        } else {
 
             return firstNumber / secondNumber;
         }
     }
 
-    public String grade(int result){
+    public String grade(int result) {
         if (result >= 90 && result <= 100) {
             System.out.println("Your Grade Is: A ");
             return "A";
@@ -64,8 +65,17 @@ public class Kata {
     }
 
 
-
+    public int noOfFactors(int num) {
+        int i = 1;
+        int factor = 0;
+        for(i = 1; i<= num; i++){
+            if(num % i == 0){
+                factor++;
+            }
+        }
+        return  factor;
     }
+}
 
 
 

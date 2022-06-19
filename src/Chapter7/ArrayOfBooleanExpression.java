@@ -16,16 +16,20 @@ public class ArrayOfBooleanExpression {
         secondStatement[0] = input.next();
         System.out.println("Enter your second word for statement 2");
         secondStatement[1] = input.next();
-        if(!Objects.equals(firstStatement[0], secondStatement[0])){
-            System.out.println("False");
-        }else{
-            System.out.println("True");
+        for (int i = 0; i < secondStatement.length; i++) {
+            System.out.println(Objects.equals(firstStatement[i], secondStatement[i])) ;
+
         }
-        if(!Objects.equals(firstStatement[1], secondStatement[1])){
-            System.out.println("False");
-        }else{
-            System.out.println("True");
-        }
+//        if(!Objects.equals(firstStatement[0], secondStatement[0])){
+//            System.out.println("False");
+//        }else{
+//            System.out.println("True");
+//        }
+//        if(!Objects.equals(firstStatement[1], secondStatement[1])){
+//            System.out.println("False");
+//        }else{
+//            System.out.println("True");
+//        }
 
     }
 }

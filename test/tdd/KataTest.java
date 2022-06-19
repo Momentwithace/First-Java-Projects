@@ -4,6 +4,7 @@ import org.junit.jupiter.api.Test;
 import tdd.Kata;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class KataTest {
     @Test
@@ -71,4 +72,17 @@ public class KataTest {
 
 
     }
-}
+////    @Test
+////    public void primeNumberTest(){
+////        boolean isPrime = Kata.isPrime(5);
+////            assertTrue(isPrime);
+//        }
+        @Test
+    public void noOfFactors(){
+        Kata calc = new Kata();
+        int factor = calc.noOfFactors(5);
+        assertEquals(2,factor);
+        }
+    }
+
+
