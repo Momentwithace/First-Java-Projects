@@ -10,8 +10,6 @@ public class RandomNumberQuiz {
     private static int correctAnswer = 0;
     static Random getRandom = new Random();
 
-    int userInput;
-
     public static void main(String[] args) {
         createTest();
     }
