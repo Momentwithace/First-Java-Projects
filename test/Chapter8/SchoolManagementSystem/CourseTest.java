@@ -1,5 +1,6 @@
 package Chapter8.SchoolManagementSystem;
 
+import SchoolManagementSystem.Course;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;

@@ -1,5 +1,6 @@
 package Chapter8.SchoolManagementSystem;
 
+import SchoolManagementSystem.Student;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 

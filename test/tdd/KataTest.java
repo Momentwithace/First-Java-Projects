@@ -39,7 +39,7 @@ public class KataTest {
     }
 
     @Test
-    public void qoutientTest(){
+    public void quotientTest(){
         Kata calculator = new Kata();
         int results = calculator.qoutientTest(5,2);
         assertEquals(2, results);
@@ -47,7 +47,7 @@ public class KataTest {
     }
 
     @Test
-    public void qoutientTest2(){
+    public void quotientTest2(){
         Kata calculator = new Kata();
         int results = calculator.qoutientTest2(10 , 0);
         assertEquals(0, results);
