@@ -1,0 +1,1 @@
+Example of writing to a file
