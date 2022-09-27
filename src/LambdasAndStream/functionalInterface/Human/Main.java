@@ -1,4 +1,6 @@
-package LambdasAndStream.functionalInterface;
+package LambdasAndStream.functionalInterface.Human;
+
+import LambdasAndStream.functionalInterface.Human.Human;
 
 public class Main {
     public static void main(String[] args) {

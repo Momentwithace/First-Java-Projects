@@ -1,4 +1,4 @@
-package LambdasAndStream.functionalInterface;
+package LambdasAndStream.functionalInterface.Human;
 
 public interface Human {
     void speak();

@@ -13,5 +13,10 @@ public class Main {
         System.out.println(IntStream.rangeClosed(1,10)
                 .map((int x) -> x * 2).sum());
 
+        System.out.println(IntStream.rangeClosed(1, 10)
+                        .filter((x) -> x% 2==0)
+                .map ((y) -> y * 3)
+                .sum());
+
     }
 }
