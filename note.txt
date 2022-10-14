@@ -1,0 +1,2 @@
+This is just an example a filewriter!
+Next will be to read the file

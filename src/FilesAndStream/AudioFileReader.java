@@ -18,7 +18,7 @@ public class AudioFileReader {
         String response = "";
 
         while (!response.equals("Q")){
-            System.out.println("P - play, S - stop, R - reset, Q - quit");
+            System.out.println("P - play, S - pause, R - reset, Q - quit");
             System.out.print("Enter your choice: ");
 
             response = scanner.next();
